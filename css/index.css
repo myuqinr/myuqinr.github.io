@@ -1,0 +1,225 @@
+main {
+  /* background-color: red; */
+  /* padding: ; */
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem -0;
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.left {
+  width: 45%;
+  /* background-color: blue; */
+  padding: 0.2rem;
+}
+
+main .my-name-txt {
+  margin: 0 0 0.1rem 0;
+  font-size: 0.9rem;
+}
+
+main .name {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #ee7214;
+  margin: -0.3rem 0 0 0;
+}
+
+main .sub-header {
+  font-size: 1.7rem;
+  margin: 0 0 -0.8rem 0;
+}
+
+main .desc {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.9rem;
+}
+
+.left .link {
+  display: flex;
+  margin: 3rem 0 0 0;
+}
+
+.link div {
+  margin: 0 1rem;
+  background-color: #fc6736;
+  border-radius: 10%;
+  display: flex;
+  padding: 0.4rem 0.5rem;
+}
+
+.link img {
+  margin-bottom: -0.2rem;
+}
+
+.link div:hover {
+  margin: 0 1rem;
+  background-color: #d33500;
+  border-radius: 10%;
+  display: flex;
+  /* padding: 0.4rem; */
+  transition: 0.3s;
+}
+
+.left .link div {
+  margin: 0 0.3rem;
+}
+
+main .right {
+  /* background-color: green; */
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.right .foto img {
+  width: 15rem;
+  border-radius: 5%;
+}
+
+.skills {
+  /* background-color: red; */
+  padding: 2.5rem 3rem;
+  /* background-color: grey; */
+  background-color: #d4d4d4;
+  /* justify-content: center; */
+}
+
+.skills .skills-header {
+  text-align: center;
+  /* background-color: blue; */
+  width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  margin: auto;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 1rem;
+  /* background-color: red; */
+}
+
+.skills-content .skill {
+  margin: 0 1rem;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.skill img {
+  background-color: #10439f;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin: auto;
+}
+
+.skill span {
+  text-align: center;
+}
+
+.projects {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-header {
+  /* justify-content: center; */
+  /* background-color: green; */
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.projects-content .card {
+  background-color: #d4d4d4;
+  border-radius: 0.5rem;
+  width: 18rem;
+  margin: 1rem 1rem;
+  text-align: center;
+  padding: 1.5rem 0rem;
+}
+
+.projects-content .card .card-header {
+  display: flex;
+  justify-content: center;
+}
+
+.projects .projects-content .card-header img {
+  width: 10rem;
+  margin: 0.5rem 0 0 0;
+  border-radius: 0.5rem;
+}
+
+.card .card-body {
+  margin: 1rem 0;
+}
+
+.card-body .using {
+  font-size: 0.8rem;
+}
+
+.card-footer {
+  margin: 1rem 0;
+}
+
+.projects-content .card-footer a {
+  background-color: #00215e;
+  padding: 0.5rem 5rem;
+  border-radius: 0.3rem;
+}
+
+.card-footer img {
+  margin: 0 0 -0.4rem 0;
+}
+
+.footer {
+  background-color: #3652ad;
+  padding: 2rem 0;
+}
+
+.footer .footer-txt {
+  /* margin: 4rem 0 0 0; */
+}
+
+.footer .footer-txt h1 {
+  margin: 0 0 0 5rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.footer .footer-content {
+  margin: 1rem 0 0 7rem;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+}
+
+.footer-content .contact {
+  margin: 1rem 1rem;
+  /* color: white; */
+}
+
+.contact img {
+  margin: 0 0 -0.3rem 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
